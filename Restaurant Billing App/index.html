@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coke Store | Billing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headings">
+        <h1 class="h1">The Coke Store</h1>
+        <h4 class="h1">Billing App</h4>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="Part-1" id="dissolve-1">
+                <fieldset>
+                    <legend>
+                        Personal Details
+                    </legend>
+                    <div class="Details">
+                       <div class="D1"> Name: <input type="text" name="" id="name1" class="D2"> </div>
+                        <div class="D1"> Email: <input type="email" name="" id="email1" class="D2"> </div>
+                    </div>
+                </fieldset>
+            </div>
+                
+                <div class="Part-2" id="dissolve-2">
+                    <fieldset>
+                        <legend>Menu</legend>
+                        <div class="menu">
+                            <div class="Coke" id="hdngs">
+                                <h2 class="Hitem">Items</h2>
+                                <div class="price Hprice">Price</div>
+                                <div class="input" id="qty">
+                                    Quantity
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="Coke">
+                                <h2 class="title">Diet Coke <div class="ml">(300ml)</div></h2>
+                                <div class="price">₹40</div>
+                                <div class="input">
+                                    <input class="enter" min="1" max="40" type="number" name="" id="DC">
+                                </div>
+                            </div>
+                    <div class="Coke">
+                        <h2 class="title">Vanilla Coke <div class="ml">(300ml)</div></h2>
+                        <div class="price">₹80</div>
+                        <div class="input">
+                            <input class="enter" min="1" max="40" type="number" name="" id="VC">
+                        </div>
+                    </div>
+                    <div class="Coke">
+                        <h2 class="title">Coca'Cola <div class="ml">(250ml)</div></h2>
+                        <div class="price">₹20</div>
+                        <div class="input">
+                            <input class="enter" min="1" max="40" type="number" name="" id="CC">
+                        </div>
+                    </div>
+                    <div class="Coke">
+                        <h2 class="title">Zero Sugar Coke <div class="ml">(250ml)</div></h2>
+                        <div class="price">₹35</div>
+                        <div class="input">
+                            <input class="enter" min="1" max="40" type="number" name="" id="ZSC">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>  
+            </div>
+    </div>
+
+        <div class="container container3" id="print">
+            <div class="tbl">     
+                <fieldset>
+                    <legend>Your Bill</legend>
+                    <h3>Your Name:<span id="name2" class="Spn"></span></h3>
+                    <h3>Email: <span id="email2" class="Spn"></span></h3>
+                    <table border="1" >
+                        <thead>
+                            <tr><th>Menu</th><th>Price</th><th>Quantity</th><th>Amount</th></tr>
+                        </thead>
+                        <tbody id="bill">
+                            <!-- <tr><td>Smosa</td><td>Rs. 10</td><td>1</td><td>10x1 = 10</td></tr> -->
+                        </tbody>
+        
+                        
+        
+                    </table>
+                    <hr class="hr">
+                    <h6>Total Amount: ₹ <span id="Amount">0</span></h6>
+                    </fieldset>
+                </div>
+                <button onclick="PrintBill()" class="btn">Print</button>
+            </div>
+    </div>
+<span class="Footer">Designed & Developed by <span class="me"><a href="https://www.linkedin.com/in/mohammedarshadali/" target="_Blank">Mohammed Arshad</a></span></span>
+</body>
+<script src="script.js">
+    
+    </script>
+</html>

@@ -1,0 +1,305 @@
+/* Css Reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: #F40009;
+}
+
+.headings{
+    margin: 34px auto;
+    text-align: center;
+    color: rgb(250, 240, 240);
+    justify-content: center;
+}
+
+h1{
+    font-size: 51px;
+    text-shadow: 5px 7px 6px #c80007;
+}
+
+h4{
+    font-weight: 500;
+}
+
+.container-fluid{
+    margin: 0 auto;
+    width: 100%;
+    height: 545px;
+    max-width: 1220px;
+    padding: 25px 0;
+    border-radius: 12px;
+    background-color: #c80007;
+}
+
+.container{
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    float: left;
+}
+
+fieldset{
+    margin: 0px -6vw 0px 11vw;
+    padding: 15px;
+    border: none;
+    background: #ffc1c3;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #ffc1c3;
+}
+
+legend{
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #de070e;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #ca181e;
+}
+
+.menu{
+    padding:0 10px;
+}
+
+#hdng{color: #9b0005}
+
+#qty{
+    font-weight: 600;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.Coke{
+    padding-top: 14px;
+    display: flex;
+    width: 373px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ml{
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+}
+
+h2{
+    flex:1;
+    font-size: 18px;
+}
+h6{
+    font-size: 25px;
+    margin: 16px 0px 5px 92px;
+}
+.Hitem{
+    font-size: 34px;
+}
+
+.price{
+    display: inline-block;
+    font-weight: 800;
+    padding: 13px;
+
+}
+
+.enter{
+    font-family: Montserrat;
+    margin: 4px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 3px;
+    outline: none;
+    width: 65px;
+    text-align: center;
+}
+
+#hdngs {color: #9b0005}
+
+.Details{
+    width: 395px;
+    font-weight: 600;
+    display: flex;
+
+}
+
+.D1{
+    margin: 12px;
+}
+
+.D2{
+    outline: none;
+    padding: 5px 5px;
+    border: none;
+    margin: 4px 0px;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.Part-2{
+    margin: 32px 0px
+}
+h3{
+	margin: 5px 0;
+    font-size: 16px;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	text-align: center;
+}
+table td,table th{
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #000000;
+}
+table tr td:last-child{
+	text-align: right;
+}
+/* h1{
+	text-align: right;
+} */
+ul li{
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.tbl{
+    width: 500px;
+}
+
+.Spn{
+    font-weight: 500;
+}
+
+.hr{
+    margin: 7px 0 14px 0px;
+}
+
+.btn{
+    margin: 20px 0px 0px 24vw;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    outline: none;
+    font-family: Montserrat;
+
+    border: none;
+    font-family: poppins;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ff272f;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+box-shadow: 0 0 18px #ffc1c3;
+}
+
+New{
+    margin: 0px 235px;
+}
+
+.Footer{
+    color: white;
+    background: #c80007;
+    padding: 23px 0px;
+    margin-top: 67px;
+    display: block;
+    text-align: center;
+}
+me:hover{
+    text-decoration: underline;
+}
+a{
+    color: white;
+    font-weight: 600;
+    display: contents;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+/* Media Queries */
+@media only screen and (max-width: 425px) {
+    .container-fluid {
+        margin: 0px 0 0 20px;
+        width: 112vw;
+        height: 858px;
+        max-width: 6;
+        padding: 50px 0px;
+        border-radius: 12px;
+        background-color: #c80007;
+    }
+    h1{
+        margin: 0 -42px 0 36px;
+    }
+    fieldset {
+        margin: 0px -6vw 0px 7vw;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .headings {
+        margin: 34px auto;
+        text-align: center;
+        color: rgb(250, 240, 240);
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 51px;
+        text-shadow: 5px 7px 6px #c80007;
+    }
+    .container {
+        width: 50%;
+        max-width: 500px;
+        margin: 0 0px 0px -18px;
+        float: none;
+    }
+
+    .btn {
+        margin: 25px 0px 0px 34vw;
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 14px;
+        outline: none;
+        font-family: Montserrat;
+        border: none;
+        font-family: poppins;
+        border-radius: 4px;
+        cursor: pointer;
+        background: #ff272f;
+        color: white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .tbl {
+        width: 4628px;
+    }
+
+    .container-fluid {
+        margin: 0px 0 0 28px;
+        width: 108vw;
+        height: 858px;
+        max-width: 6;
+        padding: 50px 0px;
+        border-radius: 12px;
+        background-color: #c80007;
+    }
+}
